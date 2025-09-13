@@ -95,3 +95,23 @@
 
 </body>
 </html>
+<h1>Food Waste Management System</h1>
+<img src="img/coverimage.jpg" alt="Food Donation" width="600">
+
+<h3>User Module</h3>
+<img src="img/user.jpg" alt="User Donating Food" width="500">
+
+<h3>Admin Module</h3>
+<img src="img/admin.jpg" alt="Admin Managing Donations" width="500">
+
+<h3>Delivery Module</h3>
+<img src="img/delivery.jpg" alt="Delivery Person" width="500">
+
+<h3>Mobile-Friendly Website</h3>
+<img src="img/responsive.gif" alt="Responsive Design" width="400">
+
+<h3>Chatbot Support</h3>
+<img src="img/chatbot.jpg" alt="Chatbot" width="400">
+
+<h3>Secure Login</h3>
+<img src="img/secure.jpg" alt="Secure Login" width="400">

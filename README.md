@@ -3,12 +3,12 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Leftover Food to Poor - Food Waste Management</title>
+  <title>Food Waste Management System</title>
 </head>
 <body>
 
-<h1>Leftover Food to Poor</h1>
-<!-- <img src="img/coverimage.jpeg" alt="Cover Image"> -->
+<h1>Food Waste Management System</h1>
+<img src="https://images.unsplash.com/photo-1606788075761-9a7790e3a02b" alt="Food Donation" width="600">
 
 <p>
   The basic concept of this project, <b>Food Waste Management</b>, is to collect excess or leftover food from donors such as hotels, restaurants, marriage halls, and individuals, and distribute it to needy people.
@@ -31,41 +31,37 @@
 
 <h3>User Module</h3>
 <p>
-  The User module is designed for people who wish to donate their excess or leftover food to help reduce wastage. 
-  Users can register, log in, and donate food by selecting the type and quantity. The system will match their donation with the nearest needy people or organizations. 
-  Users can also view their past donations. This information is shared with the Admin module for further processing.
+  The User module is designed for people who wish to donate their excess or leftover food to help reduce wastage.
+  Users can register, log in, and donate food by specifying the type and quantity. 
+  The system matches their donation with the nearest needy people or organizations. 
+  Users can also view their past donations. 
+  All donation details are forwarded to the Admin module for further processing.
 </p>
+<img src="https://images.unsplash.com/photo-1565958011703-44e9f3f58e8e" alt="User Donating Food" width="500">
 
 <h3>Admin Module</h3>
 <p>
-  The Admin module is designed for NGOs, trusts, and charities registered on the platform. 
-  Admins receive information about food donations from users and list them for NGOs and charities to choose from. 
-  Admins can view and manage donations, track requests, and record which organizations have taken which donations. 
-  NGOs can request a pickup, which will be assigned to the Delivery module.
+  The Admin module is for trusts, NGOs, and charities registered on the platform. 
+  Admins manage the food distribution process, receive information about donations, and list them for NGOs and charities to choose from. 
+  Admins can view and manage the list of donations, including type and quantity. 
+  NGOs and charities can select the donations they need and request a pickup through the Delivery module. 
+  Admins are also responsible for tracking requests and recording which organizations have collected which donations.
 </p>
+<img src="https://images.unsplash.com/photo-1551836022-4c4c79ecde51" alt="Admin Managing Donations" width="500">
 
 <h3>Delivery Module</h3>
 <p>
-  The Delivery Person module is for individuals who provide pickup and delivery services. 
-  Delivery personnel can register, view pickup and drop-off details, and ensure that food donations are delivered safely to the requesting NGOs or charities.
+  The Delivery Person module is for individuals who wish to participate in the donation process by providing pickup and delivery services. 
+  Delivery personnel can register on the platform and view the pickup and drop-off details for each request. 
+  They ensure that donated food reaches NGOs and charities safely.
 </p>
+<img src="https://images.unsplash.com/photo-1581092918367-8a5bbd2a47d9" alt="Delivery Person" width="500">
 
 <p>
-  Overall, the <b>Food Waste Management System</b> ensures efficient management of excess food. 
-  The User module collects donations, the Admin module organizes them, and the Delivery module ensures distribution. 
-  This system reduces food wastage and helps needy people.
+  Overall, the <b>Food Waste Management System</b> is designed to efficiently manage excess food and ensure it is distributed to those in need. 
+  The User module collects donations, the Admin module organizes and manages them, and the Delivery module ensures transportation. 
+  This system benefits the community by reducing food waste and helping the poor.
 </p>
-
-<h2>Module Illustrations</h2>
-<h3>User</h3>
-<!-- <img src="img/User-module.jpg" alt="User Module"> -->
-<img src="img/mobile.jpg" alt="User Mobile">
-
-<h3>Admin</h3>
-<img src="img/Admin.jpg" alt="Admin Module">
-
-<h3>Delivery</h3>
-<img src="img/Delivery_module.jpg" alt="Delivery Module">
 
 <h2>Features</h2>
 <ul>
@@ -74,14 +70,14 @@
   <li>Secure login</li>
 </ul>
 
-<h2>Mobile-Friendly Website</h2>
-<img src="img/responsive.gif" alt="Responsive Design">
+<h3>Mobile-Friendly Website</h3>
+<img src="https://images.unsplash.com/photo-1580894894513-37488f3b37db" alt="Responsive Mobile Design" width="400">
 
-<h2>Chatbot Support</h2>
-<img src="img/chatbotsupport.jpg" alt="Chatbot Support">
+<h3>Chatbot Support</h3>
+<img src="https://images.unsplash.com/photo-1603791440384-56cd371ee9a7" alt="Chatbot" width="400">
 
-<h2>Secure Login</h2>
-<img src="img/hash-flow.png" alt="Secure Login">
+<h3>Secure Login</h3>
+<img src="https://images.unsplash.com/photo-1605902711622-cfb43c4437d3" alt="Secure Login" width="400">
 
 <h2>How to Run</h2>
 <ol>
@@ -90,7 +86,7 @@
   <li>Paste it inside the root directory (<code>xampp/htdocs</code> for XAMPP, <code>wamp/www</code> for WAMP, <code>var/www/html</code> for LAMP)</li>
   <li>Open PHPMyAdmin (<a href="http://localhost/phpmyadmin">http://localhost/phpmyadmin</a>)</li>
   <li>Create a new database</li>
-  <li>Import <code>demo.sql</code> (inside the database folder)</li>
+  <li>Import the <code>demo.sql</code> file (inside the database folder)</li>
   <li>Run the project at <code>http://localhost/folderName</code></li>
 </ol>
 
